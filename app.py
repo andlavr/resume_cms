@@ -63,7 +63,7 @@ class Blog(QtWidgets.QWidget):
         if not self.ui.listWidget_Titles_name.selectedIndexes():
             return
 
-        # TODO Вопрос действительно ли удаляем
+
 
         item_text = self.ui.listWidget_Titles_name.currentItem().text()
         post_id = item_text.split(": ")[0]
